@@ -1,0 +1,44 @@
+.tabuleiro
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+#cavalo
+{
+    width: 30px;
+    position: absolute;
+    animation: anda-cavalo 15s infinite;
+}
+
+@keyframes anda-cavalo
+{
+    0%{top: 17px; left: 790px;}
+    4%{top: 145px; left: 790px;}
+    8%{top: 145px; left: 850x;}
+    12%{top: 145px; left: 850px;}
+    16%{top: 267px; left: 850px;}
+    20%{top: 267px; left: 790px;}
+    24%{top: 392px; left: 790px;}
+    28%{top: 392px; left: 727px;}
+    32%{top: 392px; left: 850px;}
+    36%{top: 332px; left: 850px;}
+    40%{top: 455px; left: 850px;}
+    44%{top: 455px; left: 790px;}
+    48%{top: 455px; left: 790px;}
+    52%{top: 455px; left: 790px;}
+    56%{top: 455px; left: 850px;}
+    60%{top: 332px; left: 850px;}
+    64%{top: 392px; left: 850px;}
+    68%{top: 392px; left: 727px;}
+    72%{top: 392px; left: 790px;}
+    76%{top: 267px; left: 790px;}
+    80%{top: 267px; left: 850px;}
+    84%{top: 145px; left: 850px;}
+    88%{top: 145px; left: 850x;}
+    92%{top: 145px; left: 790px;}
+    94%{top: 17px; left: 790px;}
+    100%{top: 17px; left: 790px;}
+}
